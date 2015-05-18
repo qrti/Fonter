@@ -40,7 +40,7 @@ status messages, green OK, red ERROR
 loads the font set specified in Set
 existing chars in the set will be marked green
 
-####Width
+#####Width
 width of the active char
 
 #####Height
@@ -70,7 +70,7 @@ use $ hex format in data
 #####16
 data format width in byte
 
-####Data Preview
+#####Data Preview
 shows data of current char
 data is copied to clipboard automatically
 

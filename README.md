@@ -1,19 +1,19 @@
-# Fonter
+# **Fonter**
 
 ### Matrix Font Data Generating for Assembler and C Projects
 
 #####**Tour A** - new char for example font set
-- for example click char A 
+- click char A in Char Field
 A is marked orange
 - optionally press Clear 
 Edit Grid is cleared
 - draw an A in Edit Grid
 (use left and right mouse button)
 - press Save
-A is added to set
+A is added to font set
 
 #####**Tour B** - new font set
-- enter a new set name in Set
+- enter a new font set name in Set
 - optionally press Load
 error file not found
 - continue with Tour A
@@ -23,6 +23,7 @@ error file not found
 - be sure to copy dirs font and bitmap to same dir as fonter.exe
 - if starting fonter with VisualStudio all is already in place
 
+###**Controls**
 #####**Edit Grid**
 - click (or hold) left mouse button to draw cell(s)
 - click (or hold) right mouse button to clear cell(s)

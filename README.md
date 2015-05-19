@@ -4,7 +4,7 @@
 
 #####**Tour A** - new char for example font set
 - click char A in Char Field
-A is marked orange
+... A is marked orange
 - optionally press Clear 
 Edit Grid is cleared
 - draw an A in Edit Grid

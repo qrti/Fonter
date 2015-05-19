@@ -3,19 +3,14 @@
 ### Matrix Font Data Generating for Assembler and C Projects
 
 #####**Tour A** - new char for example font set
-- click char A in Char Field
-... A is marked orange
-- optionally press Clear 
-Edit Grid is cleared
-- draw an A in Edit Grid
-(use left and right mouse button)
-- press Save
-A is added to font set
+- click char A in Char Field ... A is marked orange
+- optionally press Clear ... Edit Grid is cleared
+- draw an A in Edit Grid (use left and right mouse button)
+- press Save ... A is added to font set
 
 #####**Tour B** - new font set
 - enter a new font set name in Set
-- optionally press Load
-error file not found
+- optionally press Load ... error file not found
 - continue with Tour A
 
 #####**Hint**
@@ -60,8 +55,7 @@ error file not found
  - cell size of Edit Grid
 
 #####**Clear**
-- clear Edit Grid
-(nothing is saved)
+- clear Edit Grid (nothing is saved yet)
 
 #####**Save**
 - save current char to font set
@@ -71,8 +65,7 @@ error file not found
  - delete current char from font set
 
 #####**DB**
-- use .DB format in data 
-(mostly for assembler)
+- use .DB format in data (mostly for assembler)
 
 #####**0x**
 - use 0x hex format in data
@@ -88,23 +81,19 @@ error file not found
 - data is copied to clipboard automatically
 
 #####**Bitmap**
-- a bitmap image of all chars of a font set is saved in %APPATH%\bitmap 
-(when pressing Clip)
+- a bitmap image of all chars of a font set is saved in %APPATH%\bitmap (when pressing Clip)
 
 #####**Clip**
-- copies the data of all chars of the font set to clipboard
-(also see Bitmap)
+- copies the data of all chars of the font set to clipboard (also see Bitmap)
 
 #####**Exit**
 - save settings and exit program
 
 #####**Origin**
 - TLY07 - TLY07R - TLX40
-bit origin and order of data 
-(see code)
+bit origin and order of data (see code)
 - HXY
-writes grid coordinates as you draw char
-(for animated fonts)
+writes grid coordinates as you draw char (for animated fonts)
 
 #####**Preview and Control Window** 
 - set dot size and gap

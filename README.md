@@ -35,9 +35,7 @@
 
 ##### **Right from Set**
 
- - status messages
- green OK
- red ERROR
+ - status messages, green OK, red ERROR
 
 #####**Load**
 - loads the font set specified in Set

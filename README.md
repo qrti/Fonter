@@ -1,98 +1,111 @@
-#fonter
+# fonter
 
-###Matrix Font Data Generating for Assembler and C Projects
+### Matrix Font Data Generating for Assembler and C Projects
 
-#####Tour A - new char for example font set
-for example click char A -> A is marked orange
-optionally press Clear -> Edit Grid is cleared
-draw an A in Edit Grid by using left and right mouse button
-press Save -> A is added to set
+#####**Tour A** - new char for example font set
+- for example click char A 
+A is marked orange
+- optionally press Clear 
+Edit Grid is cleared
+- draw an A in Edit Grid
+(use left and right mouse button)
+- press Save
+A is added to set
 
-#####Tour B - new font set
-enter a new set name in Set
-optionally press Load -> error file not found
-continue with Tour A
+#####**Tour B** - new font set
+- enter a new set name in Set
+- optionally press Load
+error file not found
+- continue with Tour A
 
-#####Hint
-if you take the tours and running a compiled version of fonter
-be sure to copy dirs font and bitmap to same dir as fonter.exe
-if starting fonter with VisualStudio all is already in place
+#####**Hint**
+- if you take the tours and running a compiled version of fonter
+- be sure to copy dirs font and bitmap to same dir as fonter.exe
+- if starting fonter with VisualStudio all is already in place
 
+#####**Edit Grid**
+- click (or hold) left mouse button to draw cell(s)
+- click (or hold) right mouse button to clear cell(s)
 
-#####Edit Grid
-click (or hold) left mouse button to draw cell(s)
-click (or hold) right mouse button to clear cell(s)
+##### **Char Field**
+- green marked chars are present in set
+- orange marked char is the active char
+- single click a char to make it the active char
+- double click a char to load it
 
-#####Char Field
-green marked chars are present in set
-orange marked char is the active char
-single click a char to make it the active char
-double click a char to load it
+##### **Set**
+- enter name of font set to load or save
+- all fonts are loaded or saved from %APPATH%\font
 
-#####Set
-enter name of font set to load or save
-all fonts are loaded or saved from %APPATH%\font
+##### **Right from Set**
 
-#####Right from Set
-status messages, green OK, red ERROR
+ - status messages
+ green OK
+ red ERROR
 
-#####Load
-loads the font set specified in Set
-existing chars in the set will be marked green
+#####**Load**
+- loads the font set specified in Set
+- existing chars in the set will be marked green
 
-#####Width
-width of the active char
+#####**Width**
+- width of the active char
 
-#####Height
-height of the active char
+#####**Height**
 
-#####Cell
-cell size of Edit Grid
+ - height of the active char
 
-#####Clear
-clear Edit Grid (nothing is saved)
+#####**Cell**
 
-#####Save
-save current char to font set
+ - cell size of Edit Grid
 
-#####Delete
-delete current char from font set
+#####**Clear**
+- clear Edit Grid
+(nothing is saved)
 
-#####DB
-use .DB format in data (mostly for assembler)
+#####**Save**
+- save current char to font set
 
-#####0x
-use 0x hex format in data
+#####**Delete**
 
-#####$
-use $ hex format in data
+ - delete current char from font set
 
-#####16
-data format width in byte
+#####**DB**
+- use .DB format in data 
+(mostly for assembler)
 
-#####Data Preview
-shows data of current char
-data is copied to clipboard automatically
+#####**0x**
+- use 0x hex format in data
 
-#####Bitmap
-a bitmap image of all chars of a font set is saved in %APPATH%\bitmap
+#####**$**
+- use $ hex format in data
+
+#####**16**
+- data format width in byte
+
+#####**Data Preview**
+- shows data of current char
+- data is copied to clipboard automatically
+
+#####**Bitmap**
+- a bitmap image of all chars of a font set is saved in %APPATH%\bitmap 
 (when pressing Clip)
 
-#####Clip
-copies the data of all chars of the font set to clipboard
+#####**Clip**
+- copies the data of all chars of the font set to clipboard
 (also see Bitmap)
 
-#####Exit
-save settings and exit program
+#####**Exit**
+- save settings and exit program
 
-#####Origin
-TLY07 - TLY07R - TLX40
-bit origin and order of data (see code)
+#####**Origin**
+- TLY07 - TLY07R - TLX40
+bit origin and order of data 
+(see code)
+- HXY
+writes grid coordinates as you draw char
+(for animated fonts)
 
-HXY
-writes grid coordinates as you draw char (for animated fonts)
-
-#####Preview and Control Window 
-set dot size and gap
-set dot shape
-set dot color
+#####**Preview and Control Window** 
+- set dot size and gap
+- set dot shape
+- set dot color

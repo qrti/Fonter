@@ -1,4 +1,4 @@
-# fonter
+# Fonter
 
 ### Matrix Font Data Generating for Assembler and C Projects
 

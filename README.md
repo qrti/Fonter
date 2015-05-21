@@ -4,74 +4,77 @@
 
 ![Screenshot](https://github.com/qrti/Fonter/blob/master/Screenshot.png)
 
-#####**Tour A** - new char for example font set
+**Tour A** - new char for example font set  
 - click char A in Char Field ... A is marked orange
 - optionally press Clear ... Edit Grid is cleared
 - draw an A in Edit Grid (use left and right mouse button)
 - press Save ... A is added to font set
 
-#####**Tour B** - new font set
+**Tour B** - new font set  
 - enter a new font set name in Set
 - optionally press Load ... error file not found
 - continue with Tour A
 
-#####**Hint**
+**Hint**  
 - if you take the tours and running a compiled version of fonter
 - be sure to copy dirs font and bitmap to same dir as fonter.exe
 - if starting fonter with VisualStudio all is already in place
 
 ###**Controls**
-#####**Edit Grid**
+**Edit Grid**  
 - click (or hold) left mouse button to draw cell(s)
 - click (or hold) right mouse button to clear cell(s)
 
-##### **Char Field**
+**Char Field**  
 - green marked chars are present in set
 - orange marked char is the active char
 - single click a char to make it the active char
 - double click a char to load it
 
-##### **Set**
+**Set**  
 - enter name of font set to load or save
 - all fonts are loaded or saved from %APPATH%\font
 
-##### **Right from Set**
+**Right from Set**  
+status messages, green OK, red ERROR
 
- - status messages, green OK, red ERROR
-
-#####**Load**
+**Load**
 - loads the font set specified in Set
 - existing chars in the set will be marked green
 
-#####**Width**
+**Width**  
+
 - width of the active char
 
-#####**Height**
+**Height**  
 
  - height of the active char
 
-#####**Cell**
+**Cell**  
 
  - cell size of Edit Grid
 
-#####**Clear**
+**Clear**  
+
 - clear Edit Grid (nothing is saved yet)
 
-#####**Save**
+**Save** b
+
 - save current char to font set
 
-#####**Delete**
+**Delete**  
 
  - delete current char from font set
 
-#####**DB**
+**DB**  
+
 - use .DB format in data (mostly for assembler)
 
-#####**0x**
-- use 0x hex format in data
+**0x**  
+use 0x hex format in data
 
-#####**$**
-- use $ hex format in data
+**$**
+use $ hex format in data
 
 #####**16**
 - data format width in byte

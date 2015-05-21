@@ -2,6 +2,8 @@
 
 ### Matrix Font Data Generating for Assembler and C Projects
 
+![Screenshot](https://github.com/qrti/Fonter/blob/master/Screenshot.png)
+
 #####**Tour A** - new char for example font set
 - click char A in Char Field ... A is marked orange
 - optionally press Clear ... Edit Grid is cleared

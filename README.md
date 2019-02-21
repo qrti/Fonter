@@ -54,7 +54,7 @@
 
  - cell size of Edit Grid
 
-#####**Clear**
+##### **Clear**
 - clear Edit Grid (nothing is saved yet)
 
 ##### **Save**

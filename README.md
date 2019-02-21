@@ -4,24 +4,24 @@
 
 ![Screenshot](https://github.com/qrti/Fonter/blob/master/Screenshot.png)
 
-#####**Tour A** - new char for example font set
+##### **Tour A** - new char for example font set
 - click char A in Char Field ... A is marked orange
 - optionally press Clear ... Edit Grid is cleared
 - draw an A in Edit Grid (use left and right mouse button)
 - press Save ... A is added to font set
 
-#####**Tour B** - new font set
+##### **Tour B** - new font set
 - enter a new font set name in Set
 - optionally press Load ... error file not found
 - continue with Tour A
 
-#####**Hint**
+##### **Hint**
 - if you take the tours and running a compiled version of fonter
 - be sure to copy dirs font and bitmap to same dir as fonter.exe
 - if starting fonter with VisualStudio all is already in place
 
-###**Controls**
-#####**Edit Grid**
+### **Controls**
+##### **Edit Grid**
 - click (or hold) left mouse button to draw cell(s)
 - click (or hold) right mouse button to clear cell(s)
 
@@ -39,63 +39,63 @@
 
  - status messages, green OK, red ERROR
 
-#####**Load**
+##### **Load**
 - loads the font set specified in Set
 - existing chars in the set will be marked green
 
-#####**Width**
+##### **Width**
 - width of the active char
 
-#####**Height**
+##### **Height**
 
  - height of the active char
 
-#####**Cell**
+##### **Cell**
 
  - cell size of Edit Grid
 
 #####**Clear**
 - clear Edit Grid (nothing is saved yet)
 
-#####**Save**
+##### **Save**
 - save current char to font set
 
-#####**Delete**
+##### **Delete**
 
  - delete current char from font set
 
-#####**DB**
+##### **DB**
 - use .DB format in data (mostly for assembler)
 
-#####**0x**
+##### **0x**
 - use 0x hex format in data
 
-#####**$**
+##### **$**
 - use $ hex format in data
 
-#####**16**
+##### **16**
 - data format width in byte
 
-#####**Data Preview**
+##### **Data Preview**
 - shows data of current char
 - data is copied to clipboard automatically
 
-#####**Bitmap**
+##### **Bitmap**
 - a bitmap image of all chars of a font set is saved in %APPATH%\bitmap (when pressing Clip)
 
-#####**Clip**
+##### **Clip**
 - copies the data of all chars of the font set to clipboard (also see Bitmap)
 
-#####**Exit**
+##### **Exit**
 - save settings and exit program
 
-#####**Origin**
+##### **Origin**
 - TLY07 - TLY07R - TLX40
 bit origin and order of data (see code)
 - HXY
 writes grid coordinates as you draw char (for animated fonts)
 
-#####**Preview and Control Window** 
+##### **Preview and Control Window** 
 - set dot size and gap
 - set dot shape
 - set dot color
